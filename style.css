@@ -1,0 +1,30 @@
+html,body{
+    margin:0;
+    padding:0;
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-evenly;
+}
+
+header,footer{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: start;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav>div{
+    margin: 10px;
+}
