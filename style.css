@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Baloo|Work+Sans&display=swap');
 
 
-html,body{
+body{
     margin:0;
     padding:0;    
     height: 100vh;
@@ -12,9 +12,9 @@ html,body{
 }
 
 #container{
-    min-height: 100vh;
+    min-height: 100vmin;
     display: grid;
-    grid-template-rows: auto 1fr auto;
+    grid-template-rows: auto auto 1fr auto;
     background-color: #f8a5c2;
 }
 
@@ -47,23 +47,36 @@ header,footer{
 
 }
 
-header > p:first-of-type{
+header > span:first-of-type{
     font-size: 4em;
     margin: 0.2em;
 }
 
-header > p:last-of-type{
+header > span:last-of-type{
     font-size: 2em;
     margin: 0;
 }
 
 
 footer > p{
-    margin: 0.3em;
+    margin: 0.2em;
 }
 
 nav{
     display:flex;
     justify-content:space-around;
     align-items: center;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    color: #303952;
+    font-family: 'Baloo', cursive;
+}
+
+.info p{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
 }
