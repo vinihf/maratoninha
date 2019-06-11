@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+html{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.justifica{
+    text-align: justify;
+}
+
+body{
+    height: 100vh;
+}
